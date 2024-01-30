@@ -1,0 +1,14 @@
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\bin\Debug\net8.0\BookCatalog.Entities.deps.json
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\bin\Debug\net8.0\BookCatalog.Entities.runtimeconfig.json
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\bin\Debug\net8.0\BookCatalog.Entities.dll
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\bin\Debug\net8.0\BookCatalog.Entities.pdb
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\obj\Debug\net8.0\BookCatalog.Entities.csproj.AssemblyReference.cache
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\obj\Debug\net8.0\BookCatalog.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\obj\Debug\net8.0\BookCatalog.Entities.AssemblyInfoInputs.cache
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\obj\Debug\net8.0\BookCatalog.Entities.AssemblyInfo.cs
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\obj\Debug\net8.0\BookCatalog.Entities.csproj.CoreCompileInputs.cache
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\obj\Debug\net8.0\BookCatalog.Entities.dll
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\obj\Debug\net8.0\refint\BookCatalog.Entities.dll
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\obj\Debug\net8.0\BookCatalog.Entities.pdb
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\obj\Debug\net8.0\BookCatalog.Entities.genruntimeconfig.cache
+E:\Projects\C#\BookCatalog\BookCatalog.Entities\obj\Debug\net8.0\ref\BookCatalog.Entities.dll

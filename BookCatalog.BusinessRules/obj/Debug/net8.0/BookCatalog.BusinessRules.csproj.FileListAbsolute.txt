@@ -1,0 +1,17 @@
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\bin\Debug\net8.0\BookCatalog.BusinessRules.deps.json
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\bin\Debug\net8.0\BookCatalog.BusinessRules.dll
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\bin\Debug\net8.0\BookCatalog.BusinessRules.pdb
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\bin\Debug\net8.0\BookCatalog.DataAccess.dll
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\bin\Debug\net8.0\BookCatalog.Entities.dll
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\bin\Debug\net8.0\BookCatalog.DataAccess.pdb
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\bin\Debug\net8.0\BookCatalog.Entities.pdb
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\obj\Debug\net8.0\BookCatalog.BusinessRules.csproj.AssemblyReference.cache
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\obj\Debug\net8.0\BookCatalog.BusinessRules.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\obj\Debug\net8.0\BookCatalog.BusinessRules.AssemblyInfoInputs.cache
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\obj\Debug\net8.0\BookCatalog.BusinessRules.AssemblyInfo.cs
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\obj\Debug\net8.0\BookCatalog.BusinessRules.csproj.CoreCompileInputs.cache
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\obj\Debug\net8.0\BookCatalog.BusinessRules.csproj.CopyComplete
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\obj\Debug\net8.0\BookCatalog.BusinessRules.dll
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\obj\Debug\net8.0\refint\BookCatalog.BusinessRules.dll
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\obj\Debug\net8.0\BookCatalog.BusinessRules.pdb
+E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\obj\Debug\net8.0\ref\BookCatalog.BusinessRules.dll
