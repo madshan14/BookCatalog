@@ -1,18 +1,13 @@
-﻿using BookCatalog.DataAccess.Interfaces;
-using BookCatalog.Entities.Attributes;
+﻿using BookCatalog.DataAccess.Attributes;
 using BookCatalog.Entities.Data;
 using BookCatalog.Entities.Models;
+using BookCatalog.Interfaces.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BookCatalog.DataAccess.Repositories
 {
-    [ServiceDependency]
+    [Repository]
     public class CategoryRepository : ICategoryRepository
     {
         private readonly BookCatalogDbContext dbContext;

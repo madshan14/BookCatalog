@@ -1,18 +1,14 @@
-﻿using BookCatalog.DataAccess.Interfaces;
-using BookCatalog.Entities.Attributes;
+﻿using BookCatalog.DataAccess.Attributes;
 using BookCatalog.Entities.Data;
+using BookCatalog.Entities.DTOs;
 using BookCatalog.Entities.Models;
+using BookCatalog.Interfaces.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BookCatalog.DataAccess.Repositories
 {
-    [ServiceDependency]
+    [Repository]
     public class BookRepository : IBookRepository
     {
         private readonly BookCatalogDbContext dbContext;
@@ -24,29 +20,28 @@ namespace BookCatalog.DataAccess.Repositories
             this.logger = logger;
         }
 
-        public async Task<List<Book>> GetAll()
+        public async Task<List<Book>> GetAll(PaginationDTO request)
         {
             try
             {
-                var result = await dbContext.Books.ToListAsync();
-                return result;
-            }
-            catch (Exception ex)
-            {
-                logger.LogError(ex, "Error Fetching Books!");
-                throw;
-            }
-        }
-        public async Task<List<Book>> GetWithFilter(string filter)
-        {
-            try
-            {
-                filter = filter.Trim();
-                var result = await dbContext.Books
-                    .Where(book => book.Title.Contains(filter, StringComparison.OrdinalIgnoreCase) 
-                    || book.Description.Contains(filter, StringComparison.OrdinalIgnoreCase))
-                    .ToListAsync();
-                return result;
+                if (string.IsNullOrEmpty(request.Filter))
+                {
+                    var result = await dbContext.Books.OrderBy(book => book.Id)
+                        .Skip((request.PageIndex - 1) * request.PageSize)
+                        .Take(request.PageSize).ToListAsync();
+
+                    return result;
+                }
+                else
+                {
+                    var result = await dbContext.Books
+                        .Where(book => book.Title.Contains(request.Filter) || book.Description.Contains(request.Filter))
+                        .OrderBy(book => book.Id)
+                        .Skip((request.PageIndex - 1) * request.PageSize)
+                        .Take(request.PageSize).ToListAsync();
+
+                    return result;
+                }
             }
             catch (Exception ex)
             {
@@ -79,6 +74,8 @@ namespace BookCatalog.DataAccess.Repositories
             try
             {
                 var result = await dbContext.Books.AddAsync(book);
+                await dbContext.SaveChangesAsync();
+
                 return result.Entity;
             }
             catch (Exception ex)

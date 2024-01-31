@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\C#\\BookCatalog\\BookCatalog\\BookCatalog.csproj": {}
+    "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog\\BookCatalog.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\C#\\BookCatalog\\BookCatalog.BusinessRules\\BookCatalog.BusinessRules.csproj": {
+    "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.BusinessRules\\BookCatalog.BusinessRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.BusinessRules\\BookCatalog.BusinessRules.csproj",
+        "projectUniqueName": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.BusinessRules\\BookCatalog.BusinessRules.csproj",
         "projectName": "BookCatalog.BusinessRules",
-        "projectPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.BusinessRules\\BookCatalog.BusinessRules.csproj",
-        "packagesPath": "C:\\Users\\madsh\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.BusinessRules\\obj\\",
+        "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.BusinessRules\\BookCatalog.BusinessRules.csproj",
+        "packagesPath": "C:\\Users\\madshan.abdulsan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.BusinessRules\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\madsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\madshan.abdulsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,17 +22,22 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://csapps:8082/nuget": {},
+          "http://csapps:8084/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Projects\\C#\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj": {
-                "projectPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj"
+              "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj"
               },
-              "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {
-                "projectPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj"
+              "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {
+                "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj"
+              },
+              "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Interfaces\\BookCatalog.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Interfaces\\BookCatalog.Interfaces.csproj"
               }
             }
           }
@@ -66,17 +71,17 @@
         }
       }
     },
-    "E:\\Projects\\C#\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj": {
+    "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj",
         "projectName": "BookCatalog.DataAccess",
-        "projectPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\madsh\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\madshan.abdulsan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\madsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\madshan.abdulsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,14 +89,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://csapps:8082/nuget": {},
+          "http://csapps:8084/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {
-                "projectPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj"
+              "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {
+                "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj"
+              },
+              "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Interfaces\\BookCatalog.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Interfaces\\BookCatalog.Interfaces.csproj"
               }
             }
           }
@@ -125,17 +135,17 @@
         }
       }
     },
-    "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {
+    "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
         "projectName": "BookCatalog.Entities",
-        "projectPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
-        "packagesPath": "C:\\Users\\madsh\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\obj\\",
+        "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
+        "packagesPath": "C:\\Users\\madshan.abdulsan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\madsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\madshan.abdulsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -143,6 +153,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://csapps:8082/nuget": {},
+          "http://csapps:8084/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -202,17 +214,17 @@
         }
       }
     },
-    "E:\\Projects\\C#\\BookCatalog\\BookCatalog\\BookCatalog.csproj": {
+    "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Interfaces\\BookCatalog.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\C#\\BookCatalog\\BookCatalog\\BookCatalog.csproj",
-        "projectName": "BookCatalog",
-        "projectPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog\\BookCatalog.csproj",
-        "packagesPath": "C:\\Users\\madsh\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog\\obj\\",
+        "projectUniqueName": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Interfaces\\BookCatalog.Interfaces.csproj",
+        "projectName": "BookCatalog.Interfaces",
+        "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Interfaces\\BookCatalog.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\madshan.abdulsan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\madsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\madshan.abdulsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -220,17 +232,86 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://csapps:8082/nuget": {},
+          "http://csapps:8084/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Projects\\C#\\BookCatalog\\BookCatalog.BusinessRules\\BookCatalog.BusinessRules.csproj": {
-                "projectPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.BusinessRules\\BookCatalog.BusinessRules.csproj"
+              "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {
+                "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog\\BookCatalog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog\\BookCatalog.csproj",
+        "projectName": "BookCatalog",
+        "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog\\BookCatalog.csproj",
+        "packagesPath": "C:\\Users\\madshan.abdulsan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\madshan.abdulsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://csapps:8082/nuget": {},
+          "http://csapps:8084/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.BusinessRules\\BookCatalog.BusinessRules.csproj": {
+                "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.BusinessRules\\BookCatalog.BusinessRules.csproj"
               },
-              "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {
-                "projectPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj"
+              "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.DataAccess\\BookCatalog.DataAccess.csproj"
+              },
+              "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {
+                "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj"
+              },
+              "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Interfaces\\BookCatalog.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Interfaces\\BookCatalog.Interfaces.csproj"
               }
             }
           }

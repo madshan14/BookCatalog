@@ -1,18 +1,13 @@
-﻿using BookCatalog.BusinessRules.Repositories;
-using BookCatalog.DataAccess.Interfaces;
-using BookCatalog.Entities.Attributes;
+﻿using BookCatalog.BusinessRules.Attributes;
 using BookCatalog.Entities.DTOs;
 using BookCatalog.Entities.Models;
+using BookCatalog.Interfaces.Interfaces;
+using BookCatalog.Interfaces.Services;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BookCatalog.BusinessRules.Services
 {
-    [ServiceDependency]
+    [Service]
     public class BookService : IBookService
     {
         private readonly IBookRepository repository;
@@ -24,29 +19,25 @@ namespace BookCatalog.BusinessRules.Services
             this.logger = logger;
         }
 
-        public async Task<List<BookDTO>> GetAll(string filter)
+        public async Task<PaginationDTO<List<BookDTO>>> GetAll(PaginationDTO request)
         {
             try
             {
-                List<BookDTO> result = new List<BookDTO>();
-                if (string.IsNullOrEmpty(filter))
+                PaginationDTO<List<BookDTO>> result = new PaginationDTO<List<BookDTO>>
                 {
-                    var books = await repository.GetAll();
-                    foreach (var book in books)
-                    {
-                        var convertedBook = MapToBookDTO(book);
-                        result.Add(convertedBook);
-                    }
-                }
-                else
+                    Result = new List<BookDTO>()
+                };
+
+                var books = await repository.GetAll(request);
+                foreach (var book in books)
                 {
-                    var books = await repository.GetWithFilter(filter);
-                    foreach (var book in books)
-                    {
-                        var convertedBook = MapToBookDTO(book);
-                        result.Add(convertedBook);
-                    }
+                    var convertedBook = MapToBookDTO(book);
+                    result.Result.Add(convertedBook);
                 }
+
+                result.PageCount = result.Result.Count();
+                result.PageIndex = request.PageIndex;
+                result.PageSize = request.PageSize;
 
                 return result;
             }
@@ -56,10 +47,87 @@ namespace BookCatalog.BusinessRules.Services
                 throw;
             }
         }
+        public async Task<BookDTO> GetOneBook(long Id)
+        {
+            try
+            {
+                var result = await repository.GetOne(Id);
+                if (result == null)
+                {
+                    return null;
+                }
+                var book = MapToBookDTO(result);
+                return book;
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Error Fetching One Data");
+                throw;
+            }
+        }
+        public async Task<BookDTO> AddBook(BookDTO book)
+        {
+            try
+            {
+                Book request = MapToBook(book);
+                var result = await repository.Add(request);
+                var addedBook = MapToBookDTO(result);
+                return addedBook;
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Error Adding Data");
+                throw;
+            }
+        }
+        public async Task<BookDTO> UpdateBook(BookDTO book)
+        {
+            try
+            {
+                Book request = MapToBook(book);
+
+                var result = await repository.Update(request);
+                if(result == null)
+                {
+                    return null;
+                }
+
+                var updatedBook = MapToBookDTO(result);
+                return updatedBook;
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Error Updating Data");
+                throw;
+            }
+        }
+        public async Task<bool> DeleteBook(long Id)
+        {
+            try
+            {
+                var result = await repository.Delete(Id);
+                return result;
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Error Updating Data");
+                throw;
+            }
+        }
 
         private BookDTO MapToBookDTO(Book book)
         {
             return new BookDTO
+            {
+                Id = book.Id,
+                Title = book.Title,
+                Description = book.Description,
+                PublishDateUtc = book.PublishDateUtc,
+            };
+        }
+        private Book MapToBook(BookDTO book)
+        {
+            return new Book
             {
                 Id = book.Id,
                 Title = book.Title,

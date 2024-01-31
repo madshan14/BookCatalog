@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BookCatalog.DataAccess\BookCatalog.DataAccess.csproj" />
     <ProjectReference Include="..\BookCatalog.Entities\BookCatalog.Entities.csproj" />
+    <ProjectReference Include="..\BookCatalog.Interfaces\BookCatalog.Interfaces.csproj" />
   </ItemGroup>
 
 </Project>

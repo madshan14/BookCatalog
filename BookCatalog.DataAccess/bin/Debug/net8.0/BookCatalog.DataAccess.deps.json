@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "BookCatalog.DataAccess/1.0.0": {
         "dependencies": {
-          "BookCatalog.Entities": "1.0.0"
+          "BookCatalog.Entities": "1.0.0",
+          "BookCatalog.Interfaces": "1.0.0"
         },
         "runtime": {
           "BookCatalog.DataAccess.dll": {}
@@ -559,6 +560,14 @@
         "runtime": {
           "BookCatalog.Entities.dll": {}
         }
+      },
+      "BookCatalog.Interfaces/1.0.0": {
+        "dependencies": {
+          "BookCatalog.Entities": "1.0.0"
+        },
+        "runtime": {
+          "BookCatalog.Interfaces.dll": {}
+        }
       }
     }
   },
@@ -947,6 +956,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "BookCatalog.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookCatalog.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -44,6 +44,29 @@ namespace BookCatalog.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Books");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1L,
+                            Description = "Japanese Manga",
+                            PublishDateUtc = new DateTime(2024, 1, 31, 7, 10, 29, 201, DateTimeKind.Utc).AddTicks(9295),
+                            Title = "One Piece"
+                        },
+                        new
+                        {
+                            Id = 2L,
+                            Description = "Romance",
+                            PublishDateUtc = new DateTime(2024, 1, 31, 7, 10, 29, 201, DateTimeKind.Utc).AddTicks(9298),
+                            Title = "Titanic"
+                        },
+                        new
+                        {
+                            Id = 3L,
+                            Description = "Cartoon",
+                            PublishDateUtc = new DateTime(2024, 1, 31, 7, 10, 29, 201, DateTimeKind.Utc).AddTicks(9299),
+                            Title = "Doraemon"
+                        });
                 });
 
             modelBuilder.Entity("BookCatalog.Entities.Models.Category", b =>

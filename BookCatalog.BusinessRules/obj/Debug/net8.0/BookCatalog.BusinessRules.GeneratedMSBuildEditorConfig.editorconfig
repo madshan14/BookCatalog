@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BookCatalog.BusinessRules
-build_property.ProjectDir = E:\Projects\C#\BookCatalog\BookCatalog.BusinessRules\
+build_property.ProjectDir = C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.BusinessRules\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

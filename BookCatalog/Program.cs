@@ -1,10 +1,9 @@
-using BookCatalog.BusinessRules.Repositories;
+using BookCatalog.BusinessRules.Attributes;
 using BookCatalog.BusinessRules.Services;
-using BookCatalog.DataAccess.Interfaces;
+using BookCatalog.DataAccess.Attributes;
 using BookCatalog.DataAccess.Repositories;
-using BookCatalog.Entities.Attributes;
 using BookCatalog.Entities.Data;
-using BookCatalog.Utilities;
+using BookCatalog.Entities.Utilities;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using System.Reflection;
@@ -17,14 +16,11 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IBookService, BookService>();
-builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddAttributedServices(typeof(ServiceAttribute), typeof(RepositoryAttribute));
 
 builder.Services.AddDbContext<BookCatalogDbContext>(options => 
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
     b => b.MigrationsAssembly("BookCatalog")));
-
-builder.Services.AddClassesWithAttributes<ServiceDependency>(Assembly.GetAssembly(typeof(Program)));
 
 Log.Logger = new LoggerConfiguration()
         .WriteTo.Console()

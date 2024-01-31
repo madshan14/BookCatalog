@@ -1,0 +1,16 @@
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\bin\Debug\net8.0\BookCatalog.Interfaces.deps.json
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\bin\Debug\net8.0\BookCatalog.Interfaces.dll
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\bin\Debug\net8.0\BookCatalog.Interfaces.pdb
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\bin\Debug\net8.0\BookCatalog.Entities.dll
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\bin\Debug\net8.0\BookCatalog.Entities.pdb
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\obj\Debug\net8.0\BookCatalog.Interfaces.csproj.AssemblyReference.cache
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\obj\Debug\net8.0\BookCatalog.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\obj\Debug\net8.0\BookCatalog.Interfaces.AssemblyInfoInputs.cache
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\obj\Debug\net8.0\BookCatalog.Interfaces.AssemblyInfo.cs
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\obj\Debug\net8.0\BookCatalog.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\obj\Debug\net8.0\BookCatalog.Interfaces.sourcelink.json
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\obj\Debug\net8.0\BookCatalog.Interfaces.csproj.CopyComplete
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\obj\Debug\net8.0\BookCatalog.Interfaces.dll
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\obj\Debug\net8.0\refint\BookCatalog.Interfaces.dll
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\obj\Debug\net8.0\BookCatalog.Interfaces.pdb
+C:\Users\madshan.abdulsan\Documents\BookCatalog\BookCatalog.Interfaces\obj\Debug\net8.0\ref\BookCatalog.Interfaces.dll

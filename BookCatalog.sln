@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookCatalog", "BookCatalog\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookCatalog.Entities", "BookCatalog.Entities\BookCatalog.Entities.csproj", "{40E36BC4-D613-46E3-9F2A-474F9C1DF0CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookCatalog.DataAccess", "BookCatalog.DataAccess\BookCatalog.DataAccess.csproj", "{1F476CAD-FC8E-484B-A27B-920DE90F6284}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookCatalog.DataAccess", "BookCatalog.DataAccess\BookCatalog.DataAccess.csproj", "{1F476CAD-FC8E-484B-A27B-920DE90F6284}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookCatalog.BusinessRules", "BookCatalog.BusinessRules\BookCatalog.BusinessRules.csproj", "{417BC7EF-485A-422E-9436-580D48504755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookCatalog.BusinessRules", "BookCatalog.BusinessRules\BookCatalog.BusinessRules.csproj", "{417BC7EF-485A-422E-9436-580D48504755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookCatalog.Interfaces", "BookCatalog.Interfaces\BookCatalog.Interfaces.csproj", "{373425BC-FEFC-4B96-96BD-4B47508CFA4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{417BC7EF-485A-422E-9436-580D48504755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{417BC7EF-485A-422E-9436-580D48504755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{417BC7EF-485A-422E-9436-580D48504755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373425BC-FEFC-4B96-96BD-4B47508CFA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373425BC-FEFC-4B96-96BD-4B47508CFA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373425BC-FEFC-4B96-96BD-4B47508CFA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373425BC-FEFC-4B96-96BD-4B47508CFA4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

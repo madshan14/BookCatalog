@@ -4017,19 +4017,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\madsh\\.nuget\\packages\\": {}
+    "C:\\Users\\madshan.abdulsan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
       "projectName": "BookCatalog.Entities",
-      "projectPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
-      "packagesPath": "C:\\Users\\madsh\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\obj\\",
+      "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
+      "packagesPath": "C:\\Users\\madshan.abdulsan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\madsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\madshan.abdulsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4037,6 +4037,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://csapps:8082/nuget": {},
+        "http://csapps:8084/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4095,5 +4097,19 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://csapps:8084/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://csapps:8082/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

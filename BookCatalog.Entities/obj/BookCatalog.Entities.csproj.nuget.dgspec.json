@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {}
+    "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {
+    "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
         "projectName": "BookCatalog.Entities",
-        "projectPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
-        "packagesPath": "C:\\Users\\madsh\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\C#\\BookCatalog\\BookCatalog.Entities\\obj\\",
+        "projectPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\BookCatalog.Entities.csproj",
+        "packagesPath": "C:\\Users\\madshan.abdulsan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\madshan.abdulsan\\Documents\\BookCatalog\\BookCatalog.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\madsh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\madshan.abdulsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://csapps:8082/nuget": {},
+          "http://csapps:8084/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
